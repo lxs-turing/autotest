@@ -1,0 +1,35 @@
+{
+    "case_id": 10001,
+    "datas":[
+        {
+            "id": 44,
+            "format": "avi",
+            "uri": "/home/turingvideo/dev/test_videos/入侵/intrude-0001.avi",
+            "fps": 25
+        }
+    ],
+    "configs":[
+        {
+            "camera_id": 44,
+            "camera_configs":{
+            },
+            "algos": [
+                {
+                    "algo": "intrude",
+                    "params": {
+                    }
+                }
+            ]
+        }
+    ],
+    "ground_truth":{
+        "events":[
+            {
+                "event_type": "intrude",
+                "event_count": "gt 10"
+            }
+        ]
+    }
+}
+
+

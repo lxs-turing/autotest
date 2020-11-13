@@ -1,0 +1,12 @@
+<form enctype="multipart/form-data" action="/upload/" method="post">
+    上传case的json文件
+    <input type="file" name="myfile" />
+    <br />
+    上传video的视频文件
+    <input type="file" name="videofile" />
+    <br />
+    <textarea type="text" cols="30" rows="8" name="mytext" placeholder="输入case的json" ></textarea>
+    <br />
+    <input type="submit" value="upload" />
+    {% csrf_token %}
+</form>
